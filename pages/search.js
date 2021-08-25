@@ -45,7 +45,7 @@ function Search({searchResults}) {
                     </div>
                     {searchResults.map(data => {
                         console.log(data)
-                        return (<InfoCard des={data.description} img={data.img} loc={data.location} lat={data.lat} lon={data.long} price={data.price} star={data.star} title={data.title} total={data.total}/>)
+                        return (<InfoCard key={data.img} des={data.description} img={data.img} loc={data.location} lat={data.lat} lon={data.long} price={data.price} star={data.star} title={data.title} total={data.total}/>)
                     })}
                     
                 </section>
