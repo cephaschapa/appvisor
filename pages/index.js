@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Banner from '../components/Banner'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import MedCard from '../components/MedCard'
 import PlacesCard from '../components/PlacesCard'
@@ -56,59 +57,7 @@ export default function Home({data,data2}) {
           </div>
         </section>
       </main>
-      <footer className="items-center h-auto bg-gray-100">
-         <div className="px-5 py-8  w-full lg:px-52 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-5">
-         <div className="m-4">
-            <h1 className="font-bold">Home</h1>
-            <ul className="space-y-1 text-sm mt-2">
-              <li>About Appvisor</li>
-              <li>Blog</li>
-              <li>Appvisor Projects</li>
-              <li>About Outreach</li> 
-            </ul>
-          </div>
-
-          <div className="m-4">
-            <h1 className="font-bold">Community</h1>
-            <ul className="space-y-1 text-sm mt-2">
-              <li>About Appvisor</li>
-              <li>Blog</li>
-              <li>Appvisor Projects</li>
-              <li>About Outreach</li> 
-            </ul>
-          </div>
-          <div className="m-4">
-            <h1 className="font-bold">About</h1>
-            <ul className="space-y-1 text-sm mt-2">
-              <li>About Appvisor</li>
-              <li>Blog</li>
-              <li>Appvisor Projects</li>
-              <li>About Outreach</li> 
-            </ul>
-          </div>
-          <div className="m-4">
-            <h1 className="font-bold">Developers</h1>
-            <ul className="space-y-1 text-sm mt-2">
-              <li>About Appvisor</li>
-              <li>Blog</li>
-              <li>Appvisor Projects</li>
-              <li>About Outreach</li> 
-            </ul>
-          </div>
-          <div className="m-4">
-            <h1 className="font-bold">Privacy Policy</h1>
-            <ul className="space-y-1 text-sm mt-2">
-              <li>About Appvisor</li>
-              <li>Blog</li>
-              <li>Appvisor Projects</li>
-              <li>About Outreach</li> 
-            </ul>
-          </div>
-         </div>
-         <div className="h-[50px] bg-gray-900 w-full mt-16">
-
-         </div>
-      </footer>
+      <Footer />
       
     </div>
   )
